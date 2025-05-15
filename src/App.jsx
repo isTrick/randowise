@@ -38,7 +38,7 @@ function App() {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Digite nomes separados por vírgula ou espaço"
+          placeholder="Digite items separados por vírgula ou espaço"
           style={{ width: "350px", padding: "8px" }}
         />
         <button
